@@ -1,11 +1,35 @@
 # Privacy Policy
 
-*Last updated: July 2025*
+Last updated: July 2025
 
-The StillWithYou app respects your privacy. We do not collect, store, or share any personal data from users.
+The *StillWithYou* app respects your privacy and is committed to transparency.
 
-- No login or personal identification is required.
-- All conversations and data remain only on your device.
-- No analytics, third-party services, or advertising trackers are used.
+## Data Collection
 
-For any privacy-related concerns, please contact us via the developer email listed in the Google Play Store.
+- The app requires user authentication via email using *Firebase Authentication*.
+- Conversations are stored securely in *Firebase Firestore*, associated with a unique user ID.
+- No personally identifiable information (PII) is required beyond the email address.
+
+## Data Usage
+
+- Your messages are used to provide personalized responses through a secure AI backend.
+- We do not sell or share your data with third parties.
+- Your data is never used for advertising or analytics purposes.
+
+## Third-Party Services
+
+The app uses the following third-party services:
+- *Firebase (Auth + Firestore)* – for secure user management and chat storage;
+- *Custom AI backend* – to generate conversational responses based on your settings.
+
+## User Rights
+
+- You may request to delete your account and all associated data by emailing the developer at the contact listed in the Google Play Store.
+
+## Security
+
+We take reasonable precautions to protect your information and use secure protocols for data transfer.
+
+---
+
+For any questions or concerns, contact us via the developer email listed in the Play Store.
